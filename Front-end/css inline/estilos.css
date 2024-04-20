@@ -1,0 +1,66 @@
+.titulo{
+    color: crimson;
+    font-size: 28px; 
+    text-align: center;
+    border: solid;
+}
+
+h1{
+    color: rgb(255, 208, 0);
+    text-align: center;
+}
+
+#titulo2{
+    color: blue;
+    text-align:center;
+    font-size: 40px;
+}
+
+#Tomato{
+    background-color: tomato;
+    color: black;
+    text-align:left;
+    font-size: 40px;
+}
+#Orange{
+    background-color: orange;
+    color: black;
+    text-align:left;
+    font-size: 40px;
+}
+#DodgerBlue{
+    background-color: dodgerblue;
+    color: black;
+    text-align:left;
+    font-size: 40px;
+}
+#MediumSeaGreen{
+    background-color: mediumseagreen;
+    color: black;
+    text-align:left;
+    font-size: 40px;
+}
+#Gray{
+    background-color: gray;
+    color: black;
+    text-align:left;
+    font-size: 40px;
+}
+#SlateBlue{
+    background-color: slateblue;
+    color: black;
+    text-align:left;
+    font-size: 40px;
+}
+#Violet{
+    background-color: violet;
+    color: black;
+    text-align:left;
+    font-size: 40px;
+}
+#LightGray{
+    background-color: lightgray;
+    color: black;
+    text-align:left;
+    font-size: 40px;
+}

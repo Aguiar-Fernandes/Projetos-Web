@@ -1,0 +1,52 @@
+
+/*
+ *{font-family:arial -> tudo que esta no *{} será para o documento todo}
+*/
+
+*{
+    font-family:Arial
+}
+
+/* justify-content só funciona se o display for flex  - ajusta a tela na horizontal
+align - ajusta a tela na vertical*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Nome{
+    text-align:center;
+}
+
+
+#Obj{
+    background-color: gray;
+    color: black;
+    text-align:center;
+    font-size: 20px;
+}
+
+/* padding = dentro da borda */
+
+/* boder: utilizando border-size, border-color, border-stle */
+.borda-externa{
+    border: 3px black solid; 
+    padding: 20px; 
+    width: 70%;
+    align-items: center;
+         
+}
+/* line-height: 2.7em -> espaço entre lihas */
+.borda-interna{
+    border: 3px black;
+    border-style: inherit;
+    padding: 10px;
+    line-height: 2.7em;
+    
+  
+}
+
+.curso{
+    margin-left: 30px;
+}

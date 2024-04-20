@@ -1,0 +1,15 @@
+
+11/04/2024
+
+Seu Antonio, um senhor de 71 anos, dono de uma empresa relacionada ao agronegócio, 
+decidiu que era hora de aderir sua empresa ao mundo digital, para atrair mais clientes 
+ao seu negócio e alavancar vendas.  Para isso, ele entrou em contato com sua equipe 
+de design e desenvolvimento web para que pudessem apresentar idéias à ele. 
+
+Levando o enunciado acima em consideração, responda:
+
+1) Sabendo da necessidade de mais informações, foi marcada uma entrevista para levantamento de requisitos junto ao seu Antonio. 
+Como membro da equipe, quais informações acha essencial obter na referida entrevista? 
+Quais perguntas você elaboraria para conseguir essas informações?   
+
+2) Baseado apenas no enunciado, qual o tipo de site e layout que você recomendaria ao seu Antonio? 

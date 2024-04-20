@@ -1,0 +1,26 @@
+Exercício 2 - estuqdo de caso
+
+qual a finalidade da criação do site?
+- aumento de vendas
+
+qual o raml de atividade?
+- agronegócio
+
+quais produtos que serão vendidos?
+- ferramentas, sementes, agrotóxicos, fertilizantes, locação e venda de equipamentos agropecuários
+
+quais os tipos de clientes pretende atender?
+- fazendas, chacaras, sitios, pequenos, médios e grandes produtores, voltados para agronegócio
+
+qual o alcance da loja para os produtos a serem oferecidos?
+- atender toda a região, e demais clientes de outras localidades
+
+o que deve conter o site para sua empresa?
+- identidade da loja, sua história, facilidades no negócio, divulgação de promoções, entregas em toda região, destaque de produtos e equipamentos
+
+será recomendado um site de agronegócios, destacando produtos e equipamentos, formas de pagamento, contato da empresa, retorno no pós venda,
+serviços realizados em parcerias com profissionais voltados ao agronegócio.
+
+site com logo da empresa, destaque para sua história, banner de promoções e destaque de produtos, serviços oferecidos e equipamentos voltado
+para o agronegócio, formas de pagamentos, contatos da empresa, parceiros participantes.
+

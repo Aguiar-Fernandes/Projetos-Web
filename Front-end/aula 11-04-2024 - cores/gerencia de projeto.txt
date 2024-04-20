@@ -1,0 +1,14 @@
+
+brefing
+
+brainstorm:
+	técnica utilizada para geração e o debate de idéias
+
+metodologia scrum:
+	project owner, scrum master, desenvolvedores
+
+figma:
+	desenhar as telas para aprovação do cliente
+
+trello:
+	agenda compartilhada para toda equipe para acompanhar o projeto por completo
