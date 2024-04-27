@@ -4,13 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-}
+    }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    color:white;
-
+    color: black;
 }
 
 /*----------- Estilos Gerais-----------*/
@@ -66,14 +64,64 @@ body{
     text-align: center;
     padding: 20px;
     background-color: #1190ff;
-
-}
-
-.negocio{
     
-    text-align: left;
-    padding: 20px;
-    background-color: #1190ff;
-    line-height: 2.2em;
 }
-/*----------- Quem Somos -----
+
+section{
+    background-color: #021a2e;
+}
+.subtitulo1{
+    display: block;
+    line-height: 2.2em;
+    padding: 30px;
+    margin-left: 30%;
+}
+.subtitulo2{
+    display: block;
+    line-height: 2.2em;
+    padding: 20px;
+    margin-left: 5%;
+    color: white;
+}
+h2{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: white
+}
+h3{
+    color: #1190ff
+}
+h4{
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 20px;
+       
+}
+footer{
+    text-align: center;
+     
+}
+
+.container-servicos-contatos{
+    text-align: center;
+    color: #2a7ac0;
+}
+
+/* contatos */
+
+.telefone{
+    text-align: center;
+    color:#1190ff
+}
+
+h5{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: white
+}
+.texto1{
+    display: flow-root;  
+}
