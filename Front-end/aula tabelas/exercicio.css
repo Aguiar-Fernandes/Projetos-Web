@@ -1,0 +1,10 @@
+table,tr,th, td{
+    border: solid black;
+    padding: 10px;
+    
+    
+}
+
+col{
+    background-color: aqua;
+}
