@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.central{ /* caixa maior*/
+    display: flex; /*uma caixa do lado da outra*/
+    justify-content: center;
+}
+
+body{ /* caixa menores dentro da caixa maior*/
+    display: block; /*uma caixa em cima da outra*/
+    
+}
+
+footer{
+
+    background-color: magenta;
+}
