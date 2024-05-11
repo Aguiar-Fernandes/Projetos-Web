@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--colum-gap, row-gap = separa linhas e colunas-->
+<style>
+    section{
+        display: grid;
+        height: 100vh;
+        /*grid-template-columns: 20% 20% 20% 20%;*/
+        grid-template-columns: 1fr 4fr 1fr; /*utilizando fração*/
+        grid-template-rows: 20% 60%;
+        /*column-gap: 10px; 
+        row-gap: 10px;*/
+        gap: 20px;
+    }
+    div{
+        box-shadow: inset 0 0 2px black;
+    }
+</style>
+
+<body>
+    <section>
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>E</div>
+        <div>F</div>
+    </section>
+    
+</body>
+</html>
