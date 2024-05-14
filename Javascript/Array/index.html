@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+
+    <script>
+        let numeros = [10,12,14,16,18]
+        console.log(numeros[2])
+        
+        let nomes = ['joao','maria','antonio','josefa','antonia','walter']
+        console.log(nomes.length)  /* monstra no console F12 */
+        document.write(nomes.length) /* monstra no navegador */
+
+        nomes[6] = 'vitão' /* inclui na posição 6 */
+        console.log(nomes)
+
+        nomes.push('joaquim') /* push = inclui depois da última posição */
+        console.log(nomes)
+
+        nomes.unshift('jose') /* unshift = inclui antes da primeira posição */
+        console.log(nomes)
+        
+        /* pop = exclui elemento da determinada posição */
+
+        console.table(nomes) /* mostra em formato de tabela */
+        
+        console.log(nomes)
+        let nomes_extraidos = nomes.slice(0,3)  /* slide = extrae dados da array */
+        console.log(nomes_extraidos)
+
+        console.log(nomes)
+        let outros = ['maradona','miguelito','chatGPT','henry']
+
+        nomes = nomes.concat(outros)   /* concatena, junta, as duas arrays, nome e outros */
+        console.table(nomes)
+
+        console.log(nomes.includes('carlos'))   /* verifica se existe o que esta procurando - verdadeiro / falso */
+
+        console.table(nomes)
+        console.log(nomes.indexOf('walter'))    /* mostra a posição que esta procurando */
+
+        let todos_nomes = nomes.join('-')   /* insere o caracter '-' entre os dados */
+        console.log(todos_nomes)
+
+        nomes.sort()        /* ordena */
+        console.table(nomes)
+
+        
+    </script>
+    
+</body>
+</html>
