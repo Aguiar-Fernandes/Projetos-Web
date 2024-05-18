@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>DOM - Exercício</title>
+</head>
+<body>
+    <h1>Exercício em Sala - DOM</h1>
+    <button onclick="inicio()">Clique</button>
+    
+    <script>
+        
+        function inicio() {
+            let aluno = prompt('Aluno: ') /* prompt - captura de dados na variavel */
+            let nota1 = Number(prompt("Nota1:")) /* number (( identifica como número)) */
+
+            let nota2 = Number(prompt("Nota2:")) /* number (( identifica como número)) */
+
+            let media = (nota1+nota2)/2
+
+            /*alert(`Aluno:, ${aluno}, Nota1: ${nota1}
+            Nota2: ${nota2}`)*/
+            document.write(`<p>Aluno..: ${aluno}</p>`)
+            document.write(`<p>Nota1..: ${nota1}</p>`)
+            document.write(`<p>Nota2..: ${nota2}</p>`)
+            document.write(`<p>Média....: ${media}</p>`)
+        }
+        
+
+
+    </script>
+</body>
+</html>
