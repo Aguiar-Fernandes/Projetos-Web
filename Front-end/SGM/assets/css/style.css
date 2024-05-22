@@ -14,16 +14,24 @@
 .central{ /* caixa maior*/
         display: flex; /*uma caixa do lado da outra*/
         justify-content: space-between;
-
     }   
 
 .central1{ /* caixa maior*/
        display: flex; /*uma caixa do lado da outra*/
-       justify-content: space-between;
-       
-      
+       justify-content: space-around;
 } 
-    
+   
+.central2{ /* caixa maior*/
+    padding: 5%;
+    display: block; /*uma caixa embaixo da outra*/
+   
+
+}
+
+.box{
+    box-shadow: 2px 2px 2px 2px;
+}
+
 .contato{
         text-align: left;
         padding: 10px;
@@ -41,7 +49,7 @@
 
 .hr2 {
     border: 0;
-    border-top: 5px solid #1215b9;
+    border-top: 7px solid #1215b9;
 }
 
 body{
@@ -49,15 +57,41 @@ body{
     color: black;
 }
 
+nav{
+    padding: 05px;
+}
 
 .cabecalho1{
 
     max-width: 10px;
 }
 
-
-
 footer{
     text-align: center;
      
 }
+
+.titulo1{
+    font-size: 130%;
+    color: blue;
+}
+
+/*.carrossel{
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 500px;
+    width: 500px;
+}
+
+.container{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+img{
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+
+}*/
