@@ -1,6 +1,7 @@
 *{
     margin: 05px;
     padding: 00px;
+    background-color: antiquewhite;
 
     }
 
@@ -24,7 +25,9 @@
 section{
     display: flex;
 }
-
+footer{
+    display: flex;
+}
 
 img{
     border-radius: 100%;
@@ -38,7 +41,7 @@ img{
 }
 .imagem2{
     
-    position: relative
+    position: relative;
 }
     
 
@@ -47,6 +50,7 @@ img{
     position: absolute; top: 40px; left: 40px;
     
 }
+
 
 .contato{
         text-align: left;
