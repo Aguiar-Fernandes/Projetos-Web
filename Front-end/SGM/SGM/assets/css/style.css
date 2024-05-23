@@ -1,9 +1,8 @@
-*{
-    margin: 05px;
-    padding: 00px;
-    background-color: antiquewhite;
-
-    }
+* {
+  margin: 05px;
+  padding: 00px;
+  background-color: antiquewhite;
+}
 
 /*header{
         background-color: red;
@@ -12,88 +11,97 @@
         align-items: center;
     }
 */
-.central{ /* caixa maior*/
-        display: flex; /*uma caixa do lado da outra*/
-        justify-content: space-between;
-    }   
-
-.central1{ /* caixa maior*/
-       display: flex; /*uma caixa do lado da outra*/
-       justify-content: space-around;
-} 
-   
-section{
-    display: flex;
-}
-footer{
-    display: flex;
+.central {
+  /* caixa maior*/
+  display: flex; /*uma caixa do lado da outra*/
+  justify-content: space-between;
 }
 
-img{
-    border-radius: 100%;
-       
+.central1 {
+  /* caixa maior*/
+  display: flex; /*uma caixa do lado da outra*/
+  justify-content: space-evenly;
 }
 
-.imagem1{
-       
-    position: absolute; top: 40px; left: 40px;
-    
+section {
+  display: flex;
 }
-.imagem2{
-    
-    position: relative;
-}
-    
-
-.imagem3{
-    
-    position: absolute; top: 40px; left: 40px;
-    
+footer {
+  display: flex;
 }
 
-
-.contato{
-        text-align: left;
-        padding: 10px;
+img {
+  border-radius: 100%;
 }
 
-.midias{
-        text-align: right;
-        padding: 05px;
+.imagem1 {
+  /*position: absolute;*/
+  top: 40px;
+  left: 40px;
+}
+
+/*.imagem2 {
+  position: relative;
+}*/
+
+.description {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.zindex {
+  position: absolute;
+  margin-left: 85px;
+
+  margin-top: -107px !important;
+}
+
+.contato {
+  text-align: left;
+  padding: 10px;
+}
+
+.midias {
+  text-align: right;
+  padding: 05px;
 }
 
 .hr1 {
-    border: 0;
-    border-top: 1px solid #CCC;
-  }
+  border: 0;
+  border-top: 1px solid #ccc;
+}
 
 .hr2 {
-    border: 0;
-    border-top: 7px solid #1215b9;
+  border: 0;
+  border-top: 7px solid #1215b9;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
 }
 
-nav{
-    padding: 05px;
+nav {
+  padding: 05px;
 }
 
-.cabecalho1{
-
-    max-width: 10px;
+.cabecalho1 {
+  max-width: 10px;
 }
 
-footer{
-    text-align: center;
-     
+footer {
+  align-items: center;
+  justify-content: space-evenly;
+  border-top: 7px solid #1215b9;
 }
-
-.titulo1{
-    font-size: 130%;
-    color: blue;
+ul {
+  list-style: none;
+}
+.endereco{
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1868.6948274259319!2d-54.625932861860946!3d-20.490246869254488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9486e5e3cae273a9%3A0x3ceb632bacbda1c3!2sIgreja%20Comunidade%20S%C3%A3o%20Geraldo%20Magela!5e0!3m2!1spt-BR!2sbr!4v1716500076117!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+}
+.titulo1 {
+  font-size: 130%;
+  color: blue;
 }
 
 /*.carrossel{
