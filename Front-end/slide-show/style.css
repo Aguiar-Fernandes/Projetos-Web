@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex; /* fica tudo em linha */   
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden; /*tudo aquilo q ultrapassar o pai do slider(body) esconda o restante */
+}
+
+.slides{
+    width: 400%; /*% em relação ao pai(slider) */
+    height: 400px;
+    display: flex; /*mostra um ao lado do outro, mas no pai esta Slider esta hidden */
+}
+
+.slides input{
+    display:none; /* os botões ficam escondidos a partir desse ponto */
+}
+
+.slide{
+    width: 25%; /* em relação ao pai(slides)400% */
+    position: relative;
+    transition: 2s;
+}
+.slide img{
+    width: 800px;
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: -380px ;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 3px solid yellow; /* tamanho, cor, stilo do botão */
+    padding: 5px; /* tamanho do botão */
+    border-radius: 10px;
+    cursor: pointer; /*pointer, desenho de uma mão com dedinho */
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){ /* o ultimo slide não aplica o código abaixo */
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: blue;
+}
+
+#radio1:checked ~.first{ /* função css: ~ combinador de mão subsequente, vai clicar no comando ao lado, no caso "first" e aplica o código abaixo */
+    margin-left: 0;
+}
+#radio2:checked ~.first{
+    margin-left: -25% /* vai puxar a próxima imagem */
+}
+#radio3:checked ~.first{
+    margin-left: -50% /* vai puxar a próxima imagem */
+}
+#radio4:checked ~.first{
+    margin-left: -75% /* vai puxar a próxima imagem */
+}
+
+
+/* -----------auto-navigation -------------- */
+
+.auto-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: -360px ;
+    display: flex;
+    justify-content: center;
+}
+
+.auto-navigation div{
+    border: 2px solid yellow; /* tamanho, cor, stilo do botão */
+    padding: 5px; /* tamanho do botão */
+    border-radius: 10px;
+    cursor: pointer; /*pointer, desenho de uma mão com dedinho */
+    transition: 1s;
+}
+
+.auto-navigation div:not(:last-child){ /* o ultimo slide não aplica o código abaixo */
+        margin-right: 40px;
+}
+
+#radio1:checked ~.auto-navigation .auto-btn1{ /* função css: ~ combinador de mão subsequente, vai clicar no comando ao lado, no caso "first" e aplica o código abaixo */
+    background-color: blue;
+}
+#radio2:checked ~.auto-navigation .auto-btn2{ /* função css: ~ combinador de mão subsequente, vai clicar no comando ao lado, no caso "first" e aplica o código abaixo */
+    background-color: blue;
+}
+#radio3:checked ~.auto-navigation .auto-btn3{ /* função css: ~ combinador de mão subsequente, vai clicar no comando ao lado, no caso "first" e aplica o código abaixo */
+    background-color: blue;
+}
+#radio4:checked ~.auto-navigation .auto-btn4{ /* função css: ~ combinador de mão subsequente, vai clicar no comando ao lado, no caso "first" e aplica o código abaixo */
+    background-color: blue;
+}
