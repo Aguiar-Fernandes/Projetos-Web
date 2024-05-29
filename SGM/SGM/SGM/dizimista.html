@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Projeto Final - Front End - São Geraldo Majella - Dizimista</title>
+<body>
+   
+        <header>
+            <hr class="hr1">   
+            <div class="central">
+         
+                <div class="contato">
+                   <h5>contato@saogeraldomajella.com.br (67) 9999-9999</h5>
+    
+                </div>
+    
+                <div class="midias">
+                    <img src="assets/imagens/icons8-whatsapp-48.png" alt="icone" width="30px">
+                    <img src="assets/imagens/icons8-youtube-48.png" alt="icone" width="30px">
+                    <img src="assets/imagens/icons8-instagram-64.png" alt="icone" width="30px">
+                    <img src="assets/imagens/icons8-facebook-48.png" alt="icone" width="30px">
+                </div>
+            </div>    
+            <!--<hr class="hr1">  -->
+        
+    
+            <div class="central1">
+                <div class="cabecalho1">
+                    <img src="assets/imagens/Sao Geraldo.jpeg" alt="icone" width="40px">
+                </div>
+                <div>
+                    <nav>
+                        <a href="index.html">Inicio</a>
+                        <a href="index.html">História</a>
+                        <a href="eventos.html">Eventos</a>
+                        <a href="dizimista.html">Dizimista</a>
+                        
+                        <a href="">Contato</a>
+                    </nav>
+    
+                </div>
+    
+                <div>
+                    <nav>
+                        <a href="lojinha.html">Lojinha</a> 
+                    </nav>
+                            
+                </div>
+                <div class="Carrinho">
+                    <img src="assets/imagens/carrinho.jpeg" alt="" width="20px">
+                </div>
+        
+            </div>
+        </header>
+
+        <div class="topproduto">
+            <h2><a href="">Dizimista</a></div></h2>
+        </div>
+
+        <div class="form-container">
+            <h3>Formulário Básico</h3>
+            <form action="https://sys4soft.com/udemy/forms/index.php" method="post"> <!--action, conectar com servidor (sys4soft...), post=enviar para o servidor sem mostrar os dados digitados, get=envia mostrando os dados digitados-->
+                <!--text-->
+                <div class="form-group">
+                    <label>Nome: </label>
+                    <input type="text" name="campo_texto" minlength="5" maxlength="10" required placeholder="Nome completo..." size="60%">
+                </div>
+    
+                <!--e-mail-->
+                <div class="form-group">
+                    <label>E-mail: </label>
+                    <input type="email" name="campo_email" multiple required placeholder="" size="60%"> <!-- multiple, coloca vários e-mails nesse mesmo campo-->
+                </div>
+    
+                <!--endereço-->
+                <div class="form-group">
+                    <label>Endereço: </label>
+                    <input type="endereço" name="campo_endereço" required placeholder="" size="60%">
+                </div>
+    
+                <!--número-->
+                <div class="form-group">
+                    <label>Telefone: </label>
+                    <input type="number" name="campo_telefone">
+                </div>
+    
+                <!--url
+                <div class="form-group">
+                    <label>URL: </label>
+                    <input type="url" class="campo_url">
+                </div>-->
+    
+                <!--radio-->
+                <div class="form-group">
+                    <label for="">
+                        <input type="radio" name="genero"> <!--radio, escolhe somente uma opção -->
+                        Masculino
+                    </label>
+                </div>
+    
+                <!--radio-->
+                <div class="form-group">
+                    <label for="">
+                        <input type="radio" name="genero"> <!--radio, escolhe somente uma opção -->
+                        Feminino
+                    </label>
+                </div>
+    
+                <!--select
+                <label for="">Selecione uma opção:</label>
+                <select name="campo_opcao">
+                    <option value="">Brasil</option>
+                    <option value="">Argentina</option>
+                    <option value="">Chile</option>
+                    <option value="">Paraguai</option>
+                </select>-->
+    
+                <!--date-->
+                <div class="form-group">
+                    <label for="">
+                        <label>Data: </label>
+                        <input type="date" name="campo_data"> <!--date, mostra calendário -->
+                    </label>
+    
+                <!--submit-->
+                <div class="form-group">
+                </br>
+                    <input type="submit" value="Enviar"> <!--submit sempre pr último, pois ele que envia os dados do formulário para a base -->
+                </div>
+    
+    
+            </form>
+        </div>
+</body>
+
+<footer>
+    
+    <div class="footl">
+         <img src="assets/imagens/Sao Geraldo.jpeg" alt="icone" width="40px">
+    </div>
+    
+    <div>
+        <!--<h6>@saogeraldomajella © 2024 | ® Todos os direitos reservados.</h6>-->
+        <small>@saogeraldomajella © 2024 | ® Todos os direitos reservados.</small>
+    </div>
+
+    <div>
+        <h6>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html">História</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </h6>
+     </div>
+
+     <div class="footr">    
+        <h6>
+            <a href="https://maps.app.goo.gl/QjAhvJuDhRJEh5VZ8" target="_blank">Endereço: Rua das Violetas 462, Campo Grande, MS, CEP: 79080-580</a>
+        </h6>
+ 
+
+       
+</footer>
+
+</html>
