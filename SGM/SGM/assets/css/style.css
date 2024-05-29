@@ -173,7 +173,7 @@ footer {
     /*width: 600px; /*600*/
     width: 100%; /*800px*/
     height: 100%;
-    flex-shrink: 0;
+   flex-shrink: 0;
     
 }
 
@@ -248,6 +248,7 @@ section{
   max-width: 200px;
   flex-wrap: wrap;
   padding: 10px;
+ 
 }
 .produto img{
  
@@ -261,27 +262,16 @@ section{
  }
 /* ------------------------- final lojinha -------------------- */
 
-/* ------------------------- incio eventos -------------------- */
-.linhaevento{
-   
-  gap: 10px; /* espaço entre cada produto*/
-  padding: 10px;
-  justify-content: space-around;
+/* -------------------- dizimista -------------------- */
+.form-container{
+  text-align: auto;
+  width: 100%;
 
 }
-.evento{
-  display: block;
-  justify-content: center;
-  align-items: center;
-  max-width: 500px;
-  flex-wrap: wrap;
+
+.form-group{
   padding: 10px;
+  
 }
-.evento img{
- 
-  width: 50vh;
-  height: 70vh;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-}
-/* ------------------------- final eventos -------------------- */
+/* -----------------------fim dizimista -------------------- */
+
